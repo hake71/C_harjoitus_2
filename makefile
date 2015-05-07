@@ -16,6 +16,11 @@ clean:
 run:
 	./$(EXE_NAME)
 
+run2:
+	./$(EXE_NAME) 10
+	
 rebuild: clean all
 
 build: clean all run
+
+build2: clean all run2
